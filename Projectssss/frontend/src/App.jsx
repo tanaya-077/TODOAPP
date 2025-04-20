@@ -3,7 +3,7 @@ import axios from 'axios';
 import TodoForm from './components/TodoForm';
 import TodoItem from './components/TodoItem';
 
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://todoapp-backend-zeta.vercel.app//api/todos';
 
 export default function App() {
   const [todos, setTodos] = useState([]);
